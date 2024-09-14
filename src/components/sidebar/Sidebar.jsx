@@ -17,29 +17,8 @@ const menuItems = [
   { name: "Create Post", to: "/write", Icon: AddBox },
   { name: "Home", to: "/", Icon: Home },
   { name: "Chats", to: "/chat", Icon: Chat },
-  // { name: "Questions", to: "/contact", Icon: HelpOutline },
-  // { name: "Sign In/Up", to: "/login", Icon: Person },
   { name: "About", to: "/about", Icon: Info },
   { name: "Contact", to: "/contact", Icon: ContactSupport },
-];
-
-const linkItems = [
-  // {
-  //   to: "https://twitter.com/SRK_R_?t=58WfgjgrqabaZrXWBHTZkg&s=08",
-  //   Icon: Twitter,
-  // },
-  // {
-  //   to: "https://github.com/SRK-prog/",
-  //   Icon: GitHub,
-  // },
-  // {
-  //   to: "https://www.linkedin.com/in/sivaramakrishnan-r262/",
-  //   Icon: LinkedIn,
-  // },
-  // {
-  //   to: "https://www.instagram.com/siva.r12/",
-  //   Icon: Instagram,
-  // },
 ];
 
 export default function Sidebar() {
